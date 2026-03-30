@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Qupid/static/css/main.ba6596a1.css",
-    "main.js": "/Qupid/static/js/main.090d1af2.js",
+    "main.js": "/Qupid/static/js/main.cd5fbf38.js",
     "static/js/453.6a04cd9d.chunk.js": "/Qupid/static/js/453.6a04cd9d.chunk.js",
     "index.html": "/Qupid/index.html",
     "main.ba6596a1.css.map": "/Qupid/static/css/main.ba6596a1.css.map",
-    "main.090d1af2.js.map": "/Qupid/static/js/main.090d1af2.js.map",
+    "main.cd5fbf38.js.map": "/Qupid/static/js/main.cd5fbf38.js.map",
     "453.6a04cd9d.chunk.js.map": "/Qupid/static/js/453.6a04cd9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba6596a1.css",
-    "static/js/main.090d1af2.js"
+    "static/js/main.cd5fbf38.js"
   ]
 }
