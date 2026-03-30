@@ -1,12 +1,14 @@
-[
-  {
-    "id": 1,
-    "level": "deep",
-    "question": "What helps you trust someone?"
-  },
-  {
-    "id": 2,
-    "level": "deep",
-    "question": "When conflict happens in a relationship, what do you believe helps resolve it?"
-  }
-]
+{
+  "0": "What motivates you the most in life?",
+  "1": "What's a challenge you've overcome?",
+  "2": "What does friendship mean to you?",
+  "3": "What's something you're really proud of?",
+  "4": "How do you handle stress?",
+  "5": "What's one habit you're trying to improve?",
+  "6": "Who has influenced you the most?",
+  "7": "What kind of people do you enjoy being around?",
+  "8": "What does success mean to you?",
+  "9": "What's something you wish you were better at?",
+  "10": "How do you usually make important decisions?",
+  "11": "What's a lesson you've learned the hard way?"
+}

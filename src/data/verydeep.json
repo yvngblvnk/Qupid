@@ -1,12 +1,14 @@
-[
-  {
-    "id": 1,
-    "level": "verydeep",
-    "question": "What fear quietly influences many of your decisions?"
-  },
-  {
-    "id": 2,
-    "level": "verydeep",
-    "question": "What does a deeply fulfilling relationship look like to you?"
-  }
-]
+{
+  "0": "What is something you've never told anyone?",
+  "1": "What do you think is your life's purpose?",
+  "2": "What scares you about the future?",
+  "3": "When have you felt the most alone?",
+  "4": "What is a memory that still affects you deeply?",
+  "5": "What part of yourself do you find hardest to accept?",
+  "6": "What does forgiveness mean to you?",
+  "7": "When did you last feel truly at peace?",
+  "8": "What is something you wish people understood about you?",
+  "9": "What are you still trying to heal from?",
+  "10": "What does it mean to truly know someone?",
+  "11": "If you could change one thing about your past, what would it be?"
+}

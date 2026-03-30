@@ -1,12 +1,14 @@
-[
-  {
-    "id": 1,
-    "level": "personal",
-    "question": "What values guide most of the decisions you make?"
-  },
-  {
-    "id": 2,
-    "level": "personal",
-    "question": "What kind of people make you feel most comfortable being yourself?"
-  }
-]
+{
+  "0": "What's your favorite way to spend a weekend?",
+  "1": "Do you prefer mornings or nights?",
+  "2": "What's your favorite food?",
+  "3": "If you could travel anywhere right now, where would you go?",
+  "4": "What's your favorite movie or series?",
+  "5": "Do you like coffee or tea more?",
+  "6": "What's a hobby you enjoy?",
+  "7": "Do you prefer staying in or going out?",
+  "8": "What's your favorite music genre?",
+  "9": "What's something that always makes you laugh?",
+  "10": "Do you like the beach or the mountains?",
+  "11": "What's your favorite holiday?"
+}

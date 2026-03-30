@@ -1,12 +1,14 @@
-[
-  {
-    "id": 1,
-    "level": "light",
-    "question": "If you had a completely free day tomorrow, how would you spend it?"
-  },
-  {
-    "id": 2,
-    "level": "light",
-    "question": "What small thing in life makes you surprisingly happy?"
-  }
-]
+{
+  "0": "What are you most afraid of losing?",
+  "1": "When do you feel most like yourself?",
+  "2": "What does happiness mean to you?",
+  "3": "What do you think shapes a person's identity the most?",
+  "4": "Do you think people can truly change?",
+  "5": "What does love mean to you?",
+  "6": "What kind of legacy do you want to leave?",
+  "7": "What do you value more: truth or peace?",
+  "8": "When was the last time you felt truly understood?",
+  "9": "What does trust mean to you?",
+  "10": "What is something you struggle to accept?",
+  "11": "Do you believe everything happens for a reason?"
+}

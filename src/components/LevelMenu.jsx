@@ -9,7 +9,7 @@ const levels = [
 
 const LevelMenu = ({  completedCounts, onSelectLevel }) => {
   return (
-    <div className="h-screen flex items-center justify-center bg-gray-900">
+    <div className="h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/bg.jpg')" }}>
       
       <div className="flex gap-4 overflow-x-auto px-6 snap-x snap-mandatory">
         
@@ -17,11 +17,11 @@ const LevelMenu = ({  completedCounts, onSelectLevel }) => {
   <div
     key={level.name}
    onClick={() => onSelectLevel(level.id)}
-    className={`min-w-[80%] h-40 ${level.color} snap-center flex items-center justify-center text-white text-xl font-bold rounded-2xl shadow-lg cursor-pointer transform transition duration-200 hover:scale-105 active:scale-95`}
+    className={`min-w-[80%] h-40 ${level.color} snap-center flex flex-col items-center justify-center text-white text-xl font-bold rounded-2xl shadow-lg cursor-pointer transform transition duration-200 hover:scale-105 active:scale-95`}
   >
-     <h3 className="text-xl font-bold">{level.name}</h3>
+     <h5 className="text-xl font-bold">{level.name}</h5>
           <p className="text-sm mt-2">
-            Completed: {completedCounts[level.id] || 0}
+            Completed {completedCounts[level.id] || 0}
           </p>
   </div>
 ))}

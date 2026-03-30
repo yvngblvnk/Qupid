@@ -38,7 +38,7 @@ const Session = () => {
     );
   }
 
-    const questions = questionsByLevel[currentLevel];
+    const questions = Object.values(questionsByLevel[currentLevel]);
     if (!questions || questions.length === 0) {
     return <div>No questions available.</div>;
   }
@@ -62,28 +62,27 @@ const Session = () => {
     };
 
  return (
-    <div className="p-8 max-w-lg mx-auto">
+    <div className="p-8 max-w-lg mx-auto bg-transparent  ">
 
-      <h2 className="text-xl font-bold mb-4">
-        {currentLevel.toUpperCase()} Level
+      <h2 className="text-lg font-bold mb-4 align-center text-white-700  text-center bg-black">
+        {currentLevel.toUpperCase()} 
       </h2>
 
-      <div className="bg-white p-6 rounded shadow mb-4">
-        {currentQuestion.question}
+      <div className="bg-black p-6 rounded shadow mb-4  color-white ">
+        {currentQuestion}
       </div>
 
+     <button
+        onClick={() => setCurrentLevel(null)}
+        className="bg-transparent text-white text-lg px-4 py-2 rounded border border-pink-700  "
+      >
+        ← 
+      </button>
       <button
         onClick={nextQuestion}
-        className="bg-purple-600 text-white px-4 py-2 rounded"
+        className="bg-transparent text-white text-lg px-4 py-2 rounded border border-pink-700"
       >
-        Next Question
-      </button>
-
-      <button
-        onClick={() => setCurrentLevel(null)}
-        className="block mt-4 text-purple-600 underline"
-      >
-        Back to Levels
+         → 
       </button>
 
     </div>
